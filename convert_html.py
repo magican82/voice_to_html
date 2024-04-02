@@ -13,7 +13,7 @@ def recogonize_speach(f,path,dest_path):
     "pyannote/speaker-diarization")
 
 
-    #pipeline.to(torch.device("cuda")) Enable it to increase speed with cuda GPU
+    pipeline.to(torch.device("cuda")) #Enable it to increase speed with cuda GPU
 
     # run the pipeline on an audio file
     diarization = pipeline(path)

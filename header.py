@@ -1,5 +1,7 @@
 def print_header(mediapath):
-    header = '<head>\n'\
+    header ='<!DOCTYPE html>'\
+    '<html>'\
+    '<head>\n'\
     '<style>\n'\
     'th, td {\n'\
     '  border-style:dotted;\n'\
@@ -25,7 +27,9 @@ def print_header(mediapath):
 
 def print_footer():
     footer = '</table>footer\n'\
-    '</body>\n'
+    '</body>\n'\
+    '</html>'
+
     #print(footer) 
     return footer
 #print_header("C:\python\voicercognition\wav\converted\2024013401_84959260954.wav")

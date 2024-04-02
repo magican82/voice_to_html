@@ -9,3 +9,4 @@ usage python convert_html.py
 All *.wav files should be in wav dierectory. After they converded they are automaticly placed шт wav/converted dierectory.
 HTML results are generating in HTML directory.
 After than you can use IT in 1C syastem https://infostart.ru/1c/tools/2079176/
+![alt text](https://infostart.ru/bitrix/templates/sandbox_empty/assets/tpl/abo/img/logo.svg)
